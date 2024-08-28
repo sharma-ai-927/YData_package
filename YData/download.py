@@ -36,9 +36,22 @@ def download_class_code(class_number, with_answers = False):
     download_class_file(file_name, "class_code")
 
 
-    
-# could add download_slides(class_number) 
+def download_practice_code(practice_number, with_answers = False):
+    """A function to download code from the practice sessions""" 
+    file_name = "practice_" + str(class_number).zfill(2) 
+        
+    if with_answers:
+        file_name = file_name + "_answers"
+     
+    file_name = file_name + ".ipynb"
 
+    download_class_file(file_name, "practice_code")
+
+
+def download_slides(class_number):
+    """A function to download the class slides""" 
+    file_name = "class_" + str(class_number).zfill(2) + "_slides.pdf"
+    return download_class_file(file_name, "slides")
 
 
 
