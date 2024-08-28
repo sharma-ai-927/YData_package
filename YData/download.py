@@ -38,7 +38,7 @@ def download_class_code(class_number, with_answers = False):
 
 def download_practice_code(practice_number, with_answers = False):
     """A function to download code from the practice sessions""" 
-    file_name = "practice_" + str(class_number).zfill(2) 
+    file_name = "practice_" + str(practice_number).zfill(2) 
         
     if with_answers:
         file_name = file_name + "_answers"
