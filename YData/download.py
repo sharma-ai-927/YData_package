@@ -101,7 +101,7 @@ def download_class_file(file_name, file_type):
     
     # check that file_type is one of:  class_code, data, homework, images, slides
     if file_type not in ["class_code", "data", "homework", "images", "slides", "project", "practice_code"]:
-        raise Exception('The file_type argument must be a string set to either: "class_code", "data", "homework", "images", "slides", "project", "practice_code")
+        raise Exception('The file_type argument must be a string set to either: "class_code", "data", "homework", "images", "slides", "project", "practice_code"')
 
 
     full_file_name = get_basepath() + "/" + file_type + "/" + file_name
