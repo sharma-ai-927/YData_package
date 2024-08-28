@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='YData',
-    version='0.0.9999',
+    version='0.1.0000',
     packages=find_packages(exclude=['tests*']),
     license='MIT',
     description='A package to download YData files',
