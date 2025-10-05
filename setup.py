@@ -8,7 +8,7 @@ setup(
     description='A package to download YData files',
     # long_description=open('README.md').read(),
     install_requires=['numpy'],
-    url='https://github.com/lederman/YData',
+    url='https://github.com/sharma-ai-927/YData_summer_25',
     author='Ethan Meyers',
     author_email='ethan.meyers@yale.edu'
 )
